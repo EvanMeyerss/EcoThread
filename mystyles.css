@@ -1,0 +1,67 @@
+ div{
+    padding: 5px 10px;
+    font-size: 12px;
+    height: auto;
+    color: black;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    overflow:auto;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+}
+
+body{
+    background:#c7d284;
+    height:300px;
+    width: 300px;
+    overflow:auto;
+    text-align:center;
+
+}
+
+h1{
+   font-family: Georgia, serif;
+   padding-top: 15px;
+}
+
+.button{
+    height: 40px;
+    width: 50px;
+    border-radius: 6px;
+    border: 1px solid white;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.25);
+    background: blanchedalmond;
+    cursor: pointer;
+    padding: 15px;
+    position: fixed;
+    font-family: Georgia, serif;
+    color: #383636;
+    top: 15px;
+    right: 15px;
+    text-align: center;
+    z-index: 9999999999;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
+
+.header{
+    font-family: serif;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    line-height: 17px;
+
+}
+
+.data{
+    font-family: Georgia, serif;
+    color: black;
+    position:fixed;
+    text-align: center;
+    line-height: 20px;
+    padding: 15px;
+    overflow:auto;
+}

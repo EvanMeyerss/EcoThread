@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+
+    "name": "EcoThread",
+    "description": "Warns consumers of unethical fashion.",
+    "version":"1.0",
+    "browser_action":{
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "EcoThread"
+    },
+    
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "https://www.google.com/*",
+        "https://us.shein.com/*",
+        "https://www2.hm.com/*",
+        "https://www.forever21.com/*",
+        "https://www.urbanoutfitters.com/*",
+        "https://www.ae.com/*",
+        "https://www.victoriassecret.com/*",
+        "https://www.hollisterco.com/*",
+        "https://www.abercrombie.com/*",
+        "https://oldnavy.gap.com/*",
+        "https://www.gap.com/*",
+        "https://www.nike.com/*",
+        "https://www.patagonia.com/*",
+        "https://www.tentree.com/*"
+    ]
+}
